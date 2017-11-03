@@ -17,7 +17,7 @@ public class JavaREGEX {
      */
     public static void main(String[] args) {
         Pattern pat1;
-        pat1 = Pattern.compile("([0-9]{3})([0-9]{3})-([0-9]{4})");
+        pat1 = Pattern.compile("[(]?([0-9]{3})[)-.][' ']?([0-9]{3})[-.]?([0-9]{4})");
         
         System.out.println("Enter a phone number");
         Scanner input = new Scanner(System.in);
