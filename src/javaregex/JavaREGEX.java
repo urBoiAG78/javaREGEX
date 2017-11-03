@@ -24,6 +24,7 @@ public class JavaREGEX {
         String sInput = input.next();
         Matcher match = pat1.matcher(sInput);
         
+        
         if(match.matches())
         {
             String n1 = match.group(1);
@@ -36,6 +37,7 @@ public class JavaREGEX {
         {
             System.out.println("Please enter a number that matches the format");
         }
+        input.close();
     }
     
 }
